@@ -14,10 +14,6 @@
 
 ## 🛠️ Workflow Description
 
-### 🔍 Problem Approach
-
-I began by identifying a clean and scalable way to fetch, display, and cache public API data in a mobile-friendly UI.
-
 ### 📋 Task Structuring
 
 Tasks were broken down into the following steps:
