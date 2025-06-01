@@ -10,18 +10,14 @@ import {
     Text,
     Button,
     useTheme,
-    ActivityIndicator,
     Divider,
     Surface,
     Avatar,
 } from 'react-native-paper';
-import { useRoute } from '@react-navigation/native';
 import { useCoinDetails } from '../../hooks/useCoinDetails';
 import { useThemeContext } from '../../context/ThemeContext';
 import Loader from '../../components/shared/Loader';
 import SnackbarComp from '../../components/shared/SnackbarComp';
-
-const screenWidth = Dimensions.get('window').width;
 
 const CoinDetails = ({ navigation, route }: any) => {
 

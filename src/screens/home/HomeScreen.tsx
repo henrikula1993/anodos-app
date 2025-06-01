@@ -1,11 +1,10 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FlatList, View, RefreshControl, TouchableOpacity, StyleSheet, TouchableHighlight } from 'react-native';
-import { Text, Avatar, Surface, useTheme, Button, Searchbar, Snackbar } from 'react-native-paper';
+import { Text, Avatar, useTheme, Searchbar } from 'react-native-paper';
 import { useCoins } from '../../hooks/useCoins';
 import Loader from '../../components/shared/Loader';
 import { useThemeContext } from '../../context/ThemeContext';
 import Overview from './components/Overview';
-import { IconButton } from 'react-native-paper';
 import SnackbarComp from '../../components/shared/SnackbarComp';
 
 const HomeScreen = ({ navigation }: any) => {

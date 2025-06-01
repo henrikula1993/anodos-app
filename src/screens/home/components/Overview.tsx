@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react';
 import { View } from 'react-native';
-import { Button, IconButton, Surface, Text } from 'react-native-paper';
+import { IconButton, Surface, Text } from 'react-native-paper';
 import { useThemeContext } from '../../../context/ThemeContext';
 
 interface Props {

@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { IconButton, useTheme } from 'react-native-paper';
 
 // screens
 import HomeScreen from '../screens/home/HomeScreen';
