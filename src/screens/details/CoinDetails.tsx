@@ -70,7 +70,7 @@ const CoinDetails = ({ navigation, route }: any) => {
                                 {coin?.name} ({coin?.symbol.toUpperCase()})
                             </Text>
                             <Text variant="titleLarge" style={{ marginTop: 8 }}>
-                                ${coin?.market_data.current_price?.usd?.toLocaleString()}
+                                €{coin?.market_data.current_price?.usd?.toLocaleString()}
                             </Text>
                             <Text
                                 variant="bodyMedium"
@@ -84,10 +84,10 @@ const CoinDetails = ({ navigation, route }: any) => {
                             <Divider style={{ marginVertical: 16 }} />
                             <View>
                                 <Text variant="bodyMedium">
-                                    Market Cap: ${coin?.market_data.market_cap?.usd?.toLocaleString()}
+                                    Market Cap: €{coin?.market_data.market_cap?.usd?.toLocaleString()}
                                 </Text>
                                 <Text variant="bodyMedium" style={{ marginTop: 4 }}>
-                                    Volume: ${coin?.market_data.total_volume?.usd?.toLocaleString()}
+                                    Volume: €{coin?.market_data.total_volume?.usd?.toLocaleString()}
                                 </Text>
                             </View>
                             {coin?.links.homepage?.[0] ? (

@@ -110,7 +110,7 @@ const HomeScreen = ({ navigation }: any) => {
 
                                 <View style={{ alignItems: 'flex-end' }}>
                                     <Text variant="titleMedium" style={{ fontWeight: 'bold' }}>
-                                        ${item.current_price.toLocaleString()}
+                                        €{item.current_price.toLocaleString()}
                                     </Text>
                                     <Text
                                         variant="bodySmall"
